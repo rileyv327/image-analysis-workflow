@@ -2,7 +2,7 @@
 
 Workflow to process positional data with outcome values through an () image-based analysis.
 
-In terminal run script.xx yourData.csv
+In terminal run script.py yourData.csv
 
 yourData.csv should be formatted as x, y, outcome.
 
