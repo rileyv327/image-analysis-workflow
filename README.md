@@ -1,6 +1,6 @@
 # image-analysis-workflow
 
-Workflow to process positional data with outcome values through an () image-based analysis.
+Workflow to process positional data with outcome values through an RCDT? image-based analysis.
 
 In terminal run GenerateShotLocHeatMaps.py yourData.csv
 
