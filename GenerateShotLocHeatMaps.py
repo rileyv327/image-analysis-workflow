@@ -35,16 +35,13 @@ if len(inputs) > 1:
 else:
     df = pd.read_csv("xG_image.csv")
 
-# grab all teams from the euros
+# split the dataset into different groups
 outcome_scores = 2
 grpSize = 1000
 groups = np.floor(len(df)/grpSize).astype(int)
 print("Outcomes are ", outcome_scores)
 print("Groups are ", groups)
 
-# if the images directory doesn't exist, make it
-if not os.path.exists("KDE_images2/"):
-    os.mkdir("KDE_images2/")
 
 if not os.path.exists("Source_codes/"):
     os.mkdir("Source_codes/")
